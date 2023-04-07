@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+@media (max-width: 768px) {
+  .clothes_img_lg {
+    display: none;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+.clothes_img_sm {
+  height: 240px;
+}
+.para {
+  color: #64748b;
+  padding: 3px;
+}
+h1 {
+  color: #1e293b;
+}
+.startBtn {
+  color: #ffffff;
+  padding: 5px;
+}
+.start {
+  width: 200px;
+  height: 35px;
+}
+
+@media (min-width: 768px) {
+  .clothes_img_sm {
+    display: none;
+  }
+  .para {
+    width: 470px;
+  }
+  .card_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .clothes_img_lg {
+    height: 400px;
+  }
+  .home_container {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

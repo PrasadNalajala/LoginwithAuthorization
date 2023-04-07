@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+* {
+  font-family: 'Roboto';
+}
+@media all and (min-width: 768px) {
+  .sm-nav {
+    display: none;
+  }
+  .nav-logo {
+    height: 38px;
+  }
+  .lg-nav {
+    display: flex;
+    align-items: center;
+  }
+  li {
+    list-style-type: none;
+  }
+  .navEl {
+    font-size: 18px;
+    padding-right: 10px;
+    color: #64748b;
+    font-weight: 400;
+  }
+  .sm-nav-elements {
+    display: none;
+  }
+}
+button {
+  background-color: #0967d2;
+  height: 30px;
+  border: 0;
+  width: 70px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.logout-btn {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+@media all and (max-width: 768px) {
+  .lg-nav {
+    display: none;
+  }
+  .nav-logo {
+    height: 30px;
+    width: cover;
+  }
+  .sm-nav {
+    height: 30px;
+  }
+  .sm-nav-elements {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e6f6ff;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .sm-nav-El {
+    height: 25px;
+  }
+}

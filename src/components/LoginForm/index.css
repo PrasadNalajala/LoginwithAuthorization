@@ -1,0 +1,105 @@
+/* Write your CSS code here */
+@media all and (max-width: 992px) {
+  .lg-logo {
+    display: none;
+  }
+  .login_img_container {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+  }
+  .login-bg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login {
+    width: 90%;
+  }
+  .form {
+    margin-top: 10px;
+  }
+}
+.sm-logo {
+  height: 30px;
+  width: 200px;
+}
+* {
+  font-family: 'Roboto';
+}
+.logo {
+  height: 30px;
+  width: 200px;
+}
+.login {
+  height: 100px;
+}
+.label {
+  font-size: 12px;
+  color: #475569;
+  font-weight: bold;
+}
+input {
+  background-color: #d7dfe9;
+  padding: 6px;
+  height: 27px;
+  border: 0;
+  border-radius: 5px;
+  width: 380px;
+}
+.login_btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0;
+  display: flex;
+  width: 390px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 15px;
+  height: 40px;
+}
+.errorMsg {
+  color: red;
+}
+@media all and (min-width: 992px) {
+  .sm-logo {
+    display: none;
+  }
+  .login-bg {
+    height: 100vh;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+  }
+  .login_img_container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+  }
+  .login {
+    height: 50%;
+    width: 60%;
+  }
+  .lg-logo {
+    height: 70px;
+  }
+  .lg-form {
+    padding-right: 10%;
+  }
+  .form {
+    margin-top: 15px;
+  }
+  label {
+    margin-top: 10px;
+  }
+  input {
+    margin-top: 10px;
+  }
+}
