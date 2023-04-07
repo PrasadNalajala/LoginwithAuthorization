@@ -8,7 +8,7 @@ class LoginForm extends Component {
 
   onSuccessLogin = () => {
     const {history} = this.props
-    history.replace('/')
+    history.replace('/home')
   }
 
   onSubmitLogin = async event => {
